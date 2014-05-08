@@ -1,5 +1,5 @@
 //
-//  TUIViewController.h
+//  TUIConfigViewController.h
 //  BeaconDemo
 //
 //  Created by Diego Lafuente Garcia on 08/05/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TUIViewController : UIViewController
+@interface TUIConfigViewController : UIViewController
 
 @end

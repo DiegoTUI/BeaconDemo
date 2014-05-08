@@ -14,13 +14,16 @@
 		761F591A191B872700F1BFD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 761F5919191B872700F1BFD0 /* main.m */; };
 		761F591E191B872700F1BFD0 /* TUIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 761F591D191B872700F1BFD0 /* TUIAppDelegate.m */; };
 		761F5921191B872700F1BFD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761F591F191B872700F1BFD0 /* Main.storyboard */; };
-		761F5924191B872700F1BFD0 /* TUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761F5923191B872700F1BFD0 /* TUIViewController.m */; };
 		761F5926191B872700F1BFD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761F5925191B872700F1BFD0 /* Images.xcassets */; };
 		761F592D191B872700F1BFD0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761F592C191B872700F1BFD0 /* XCTest.framework */; };
 		761F592E191B872700F1BFD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761F590D191B872700F1BFD0 /* Foundation.framework */; };
 		761F592F191B872700F1BFD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761F5911191B872700F1BFD0 /* UIKit.framework */; };
 		761F5937191B872700F1BFD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 761F5935191B872700F1BFD0 /* InfoPlist.strings */; };
 		761F5939191B872700F1BFD0 /* BeaconDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 761F5938191B872700F1BFD0 /* BeaconDemoTests.m */; };
+		761F5944191B89F500F1BFD0 /* TUITrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761F5943191B89F500F1BFD0 /* TUITrackViewController.m */; };
+		761F5947191B8A4900F1BFD0 /* TUIConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761F5946191B8A4900F1BFD0 /* TUIConfigViewController.m */; };
+		761F5949191B8F2200F1BFD0 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761F5948191B8F2200F1BFD0 /* CoreBluetooth.framework */; };
+		761F594B191B8F3200F1BFD0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761F594A191B8F3200F1BFD0 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,18 @@
 		761F591C191B872700F1BFD0 /* TUIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TUIAppDelegate.h; sourceTree = "<group>"; };
 		761F591D191B872700F1BFD0 /* TUIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TUIAppDelegate.m; sourceTree = "<group>"; };
 		761F5920191B872700F1BFD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		761F5922191B872700F1BFD0 /* TUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TUIViewController.h; sourceTree = "<group>"; };
-		761F5923191B872700F1BFD0 /* TUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TUIViewController.m; sourceTree = "<group>"; };
 		761F5925191B872700F1BFD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		761F592B191B872700F1BFD0 /* BeaconDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		761F592C191B872700F1BFD0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		761F5934191B872700F1BFD0 /* BeaconDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconDemoTests-Info.plist"; sourceTree = "<group>"; };
 		761F5936191B872700F1BFD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		761F5938191B872700F1BFD0 /* BeaconDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconDemoTests.m; sourceTree = "<group>"; };
+		761F5942191B89F500F1BFD0 /* TUITrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUITrackViewController.h; sourceTree = "<group>"; };
+		761F5943191B89F500F1BFD0 /* TUITrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUITrackViewController.m; sourceTree = "<group>"; };
+		761F5945191B8A4900F1BFD0 /* TUIConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUIConfigViewController.h; sourceTree = "<group>"; };
+		761F5946191B8A4900F1BFD0 /* TUIConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUIConfigViewController.m; sourceTree = "<group>"; };
+		761F5948191B8F2200F1BFD0 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		761F594A191B8F3200F1BFD0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761F594B191B8F3200F1BFD0 /* CoreLocation.framework in Frameworks */,
+				761F5949191B8F2200F1BFD0 /* CoreBluetooth.framework in Frameworks */,
 				761F5910191B872700F1BFD0 /* CoreGraphics.framework in Frameworks */,
 				761F5912191B872700F1BFD0 /* UIKit.framework in Frameworks */,
 				761F590E191B872700F1BFD0 /* Foundation.framework in Frameworks */,
@@ -101,6 +110,8 @@
 		761F590C191B872700F1BFD0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				761F594A191B8F3200F1BFD0 /* CoreLocation.framework */,
+				761F5948191B8F2200F1BFD0 /* CoreBluetooth.framework */,
 				761F590D191B872700F1BFD0 /* Foundation.framework */,
 				761F590F191B872700F1BFD0 /* CoreGraphics.framework */,
 				761F5911191B872700F1BFD0 /* UIKit.framework */,
@@ -115,10 +126,12 @@
 				761F591C191B872700F1BFD0 /* TUIAppDelegate.h */,
 				761F591D191B872700F1BFD0 /* TUIAppDelegate.m */,
 				761F591F191B872700F1BFD0 /* Main.storyboard */,
-				761F5922191B872700F1BFD0 /* TUIViewController.h */,
-				761F5923191B872700F1BFD0 /* TUIViewController.m */,
 				761F5925191B872700F1BFD0 /* Images.xcassets */,
 				761F5914191B872700F1BFD0 /* Supporting Files */,
+				761F5942191B89F500F1BFD0 /* TUITrackViewController.h */,
+				761F5943191B89F500F1BFD0 /* TUITrackViewController.m */,
+				761F5945191B8A4900F1BFD0 /* TUIConfigViewController.h */,
+				761F5946191B8A4900F1BFD0 /* TUIConfigViewController.m */,
 			);
 			path = BeaconDemo;
 			sourceTree = "<group>";
@@ -251,8 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				761F591A191B872700F1BFD0 /* main.m in Sources */,
-				761F5924191B872700F1BFD0 /* TUIViewController.m in Sources */,
 				761F591E191B872700F1BFD0 /* TUIAppDelegate.m in Sources */,
+				761F5944191B89F500F1BFD0 /* TUITrackViewController.m in Sources */,
+				761F5947191B8A4900F1BFD0 /* TUIConfigViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
